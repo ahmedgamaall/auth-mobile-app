@@ -1,19 +1,21 @@
-# quote-generator-mobile-app
+# auth-mobile-app
 
 Hello there, your task is to convert the following figma design into a mobile app:
 
-https://www.figma.com/file/RU5SIqb4oqRpowA56hUB9O/quote-generator-screens?type=design&node-id=0%3A1&mode=design&t=x9pgdqsV75TKlwRp-1
+https://www.figma.com/file/8c8KBj7I6VW5sbuJNRbF7E/auth-screens?type=design&node-id=0%3A1&mode=design&t=yzOIpKZWeIWjbMO3-1
 
-Then use the following api to get random quotes in home screen and get quotes by id in favorite quotes screen:
+Then use one of the following APIs to implement authentication:
 
-https://github.com/lukePeavey/quotable
+https://dummyjson.com/docs/auth
+
+https://reqres.in/
 
 So make sure that you have covered all the following tasks:
 
-- design home and favorite quotes screens.
+- design login, register and profile screens.
 - implement navigation between screens.
-- implement generate quote, add to favorite, remove from favorite and search functionalities.
-- store IDs of favorite quotes locally on user device.
+- implement login, register, remember me and log out functionalities.
+- display user details in profile screen.
 
 That's all, fork the repository and start working on it.
 
