@@ -22,11 +22,11 @@ class ApiService {
   Future<LoginResponse> loginUser(LoginRequestBody loginRequestBody) async {
     var response = await DioFactory.postData(
       endPoint: ApiConstants.login,
-      // data: loginRequestBody.toJson(),
-      data: {
-        "username": "emilys",
-        "password": "emilyspass"
-      },
+      data: loginRequestBody.toJson(),
+      // data: {
+      //   "username": "emilys",
+      //   "password": "emilyspass"
+      // },
     );
     return LoginResponse.fromJson(response.data);
   }
