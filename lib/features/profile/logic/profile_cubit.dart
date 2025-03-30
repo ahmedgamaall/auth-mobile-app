@@ -23,6 +23,10 @@ class ProfileCubit extends Cubit<ProfileState> {
         usernameController.text = userData.username;
         emailController.text = userData.email;
         genderController.text = userData.gender;
+
+        // usernameController.text = 'AhmedGamal';
+        // emailController.text = 'ahmed@gmail.com';
+        // genderController.text = 'Male';
         emit(SuccessProfileInfo(userData: userData));
       },
     );
